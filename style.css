@@ -1,0 +1,99 @@
+.nav1{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    margin: 0px;
+    padding: 20px;
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+}
+.nav1 li a{
+    text-decoration: none;
+    margin: 10px;
+    font-size: large;
+    font-style: normal;
+    font-weight: bolder;
+    color: white;
+}
+.nav1 li a:hover{
+    color: red;
+}
+.nav1 img {
+    width: 70px;
+    margin-right: 150px;
+}
+.down{
+    margin-left: 350px;
+}
+.celeb{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    color: whitesmoke;
+    font-weight: 500;
+    background-color: rgb(20, 19, 19);
+}
+.celeb1{
+    display: flex;
+    justify-content: center;
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    font-weight: 900;
+}
+.nav2{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 20px;
+}
+.nav2 li a{
+    text-decoration: none;
+    margin: 10px;
+    font-size: large;
+    font-style: normal;
+    font-weight: 800;
+    color: black;
+}
+.nav2 li a:hover{
+    color: red;
+}
+.nav3{
+    display: flex;
+    justify-content: left;
+    margin: 0px;
+    padding: 20px;
+}
+.nav3 li a{
+    text-decoration: none;
+    margin: 140px;
+    font-size: large;
+    font-style: normal;
+    color: black;
+    font-weight: 800;
+}
+.hover img:hover {
+    scale: 1.2;
+    transition: scale 1.5s;
+}
+.nav3 li a:hover{
+    color: red;
+}
+.nav4{
+    display: flex;
+    justify-content: left;
+    margin: 0px;
+    padding: 20px;
+}
+.nav4 li a{
+    text-decoration: none;
+    margin: 110px;
+    font-size: large;
+    font-style: normal;
+    color: black;
+    font-weight: 800;
+}
+.nav4 li a:hover{
+    color: red;
+}
